@@ -365,7 +365,7 @@ mysql_ssl=0
 mysql_suffix=${USER}_
 nolink_certs=2
 passwd_mode=1
-php_fpm=pm = ondemand	pm.max_children = 8	pm.process_idle_timeout = 1800s
+php_fpm=pm = ondemand	pm.max_children = 3	pm.process_idle_timeout = 1800s
 php_log=1
 php_noedit=0
 php_sock=1
